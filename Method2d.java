@@ -4,10 +4,12 @@ public class Method2d {
         int[][] arr1 = new int[10][10];
 
         //2.เขียน method สำหรับ สุ่มค่าตัวเลขจำนวนเต็มระหว่าง 50 – 59 แล้วนำไปเก็บลงในทุกตำแหน่งของ 2D Array
+        System.out.println("Array 1: ");
         randomArray(arr1);
+        displayArray(arr1);        
 
         //3.เขียน method สำหรับแสดงค่าข้อมูลทั้งหมดใน 2DArray โดยแสดงผลเป็นลักษณะตาราง
-        System.out.println("Array 1: ");
+        System.out.println("Array 2: ");
         displayArray(arr1);
 
         //4.ให้ประกาศ 2D Array ขนาด 10 × 10 อีก 1 ตัว 
